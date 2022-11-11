@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+.전체{background-color: coral;
+width: 600px;
+margin-top: 2200px;
+position: relative;
+}
+.전체 .첫째{background-color: aqua;
+    width: 200px; height: 200px;
+    /* 이동시 position이 있어야한다 */
+    position: relative; /* 주위에 아무런 영향을 주지 않는다 */
+    left:300px;
+}
+.전체 .둘째{background-color: forestgreen;
+    width: 200px; height: 200px;
+    position:absolute ; left: 100px;top: 0;
+}
+.전체 .세째{background-color:crimson;
+    width: 200px; height: 200px;}
+
+
+.fixed{background-color: gray; color: #fff;
+position: fixed;/* //화면기준 */
+top: 100px; right: 10px;
+padding: 20px;
+}
